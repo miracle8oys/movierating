@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+  width: 100%;
+}
+.content {
+  width: 100%;
+}
+.home {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+}
+.data-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card {
+  width: 8rem;
+  display: flex;
+}
+
+form {
+  display: grid;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+}
+
+.checked {
+  color: orange;
+}
+
+.starform {
+  display: flex;
+}
+
+.rating {
+  font-size: 2.5rem;
+}
+
+.container-form {
+  display: grid;
+  justify-content: left;
+  margin-left: 2rem;
+}
+
+.container-form .fa-star {
+  font-size: 1.5rem;
+  padding-left: 1rem;
+}
+
+.container-form input {
+  margin-left: 1rem;
+  height: 3rem;
+}
+
+.container-form button {
+  margin-left: 1rem;
+  width: 5rem;
+}
+
+.user-rating {
+  margin-left: 1rem;
+  display: grid;
+  justify-content: left;
+  text-align: left;
+}
+
+.login {
+  display: grid;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.login form {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.login form button {
+  width: 7rem;
+}
+
+.more-detail {
+  display: block;
+  text-align: start;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.more-detail h5 {
+  font-weight: 700;
+}
+.arrow {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.navbar img {
+  width: 6rem;
+  height: 4.5rem;
+}
